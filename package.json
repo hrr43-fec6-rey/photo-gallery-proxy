@@ -1,0 +1,23 @@
+{
+  "name": "photo-gallery-proxy",
+  "version": "1.0.0",
+  "description": "FEC rey proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "start:dev": "nodemon server/index.js -i public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr43-fec6-rey/photo-gallery-proxy.git"
+  },
+  "author": "Tiffany Jalovec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr43-fec6-rey/photo-gallery-proxy/issues"
+  },
+  "homepage": "https://github.com/hrr43-fec6-rey/photo-gallery-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
