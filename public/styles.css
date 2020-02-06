@@ -1,0 +1,36 @@
+
+#grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    "lside  main sidebar rside"
+    "footer footer footer footer";
+  grid-gap: 10px;
+}
+
+#header {
+  grid-area: header;
+  height: 288px;
+  background-color: tan;
+}
+
+#left-margin {
+  grid-area: lside;
+  width: 50px;
+}
+
+#main {
+  grid-area: main;
+  width: 640px;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  width: 350px;
+}
+
+#right-margin {
+  grid-area: rside;
+  width: 50px;
+}
