@@ -12,6 +12,7 @@
 #header {
   grid-area: header;
   height: 288px;
+  width: 100%;
   background-color: tan;
 }
 
